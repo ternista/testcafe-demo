@@ -1,0 +1,15 @@
+{
+  "name": "demo-testcafe",
+  "version": "1.0.0",
+  "description": "Execute end-to-end testing",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "testcafe chrome tests/ -e"
+  },
+  "dependencies": {
+    "testcafe": "^1.1.4"
+  }
+}
